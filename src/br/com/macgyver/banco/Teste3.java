@@ -8,6 +8,8 @@ public class Teste3 {
         conta1.depositar(1000);
         conta1.retirar(100);
         
+        
+        //no caso da ContaCorrente tá usando a subclasse e o valor é diferente de quando usa a superclasse
         ContaCorrente conta2 = new ContaCorrente();
         conta2.depositar(1000);
         conta2.retirar(100);
