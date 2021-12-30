@@ -47,9 +47,11 @@ public class MetodosStrings {
            System.out.println(descricao.toLowerCase());
            System.out.println(descricao.toUpperCase());
            
+           //índice de 0 a 4 e índice de 4 pra frente
           System.out.println(descricao.substring(0, 4));
           System.out.println(descricao.substring(4));
 
+          //começa em maçã e acaba em espaço
           System.out.println(descricao.substring(
                   descricao.indexOf("Maçã"),
                   descricao.indexOf(" ")));
