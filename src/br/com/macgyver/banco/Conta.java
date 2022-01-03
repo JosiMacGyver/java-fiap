@@ -46,6 +46,10 @@ public class Conta  implements Serializable{
     public void setNumero(int numero) {
         this.numero = numero;
     }
+
+    public void sacar(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }
